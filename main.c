@@ -30,6 +30,6 @@ int getRandom(int index){
 
 int main(int arg, char *arv[]){
 	srand(time(NULL));
-	printf("Hallo %s %s\n", Adjectives[getRandom(5)], Nouns[getRandom(10)]);
+	printf("%s %s\n", Adjectives[getRandom(5)], Nouns[getRandom(10)]);
 	return 0;
 }
