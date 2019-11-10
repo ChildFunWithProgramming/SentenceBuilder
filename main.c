@@ -6,6 +6,21 @@
 #include <stdlib.h>
 
 
+char *Verbs[]={
+	"laufen",
+	"rennen",
+	"schneiden",
+	"pfeifen",
+	"beissen",
+	"fauchen",
+	"schlafen",
+	"schreien",
+	"kaufen",
+	"laufen",
+	"schreiben"
+};
+
+
 char *Nouns[]={
 	"Tiger",
 	"Mama",
@@ -24,7 +39,13 @@ char *Adjectives[]={
 	"bunt",
 	"ekelig",
 	"schön",
-	"cool"
+	"cool",
+	"neu",
+	"traurig",
+	"blöd",
+	"krass",
+	"hervorragent",
+	"grausam"
 };
 
 int getRandom(int index){
@@ -33,6 +54,6 @@ int getRandom(int index){
 
 int main(int arg, char *arv[]){
 	srand(time(NULL));
-	printf("%s %s\n", Adjectives[getRandom(5)], Nouns[getRandom(10)]);
+	printf("%s %s %s\n", Adjectives[getRandom(10)], Nouns[getRandom(10)], Verbs[getRandom(11)]);
 	return 0;
 }
