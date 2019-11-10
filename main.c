@@ -1,5 +1,5 @@
 /**
- * Autors: Luisa Roth, Sascha Roth
+ * Authors: Luisa Roth, Sascha Roth
  */
 #include "stdio.h"
 #include <time.h>
